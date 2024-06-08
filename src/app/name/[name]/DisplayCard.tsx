@@ -60,9 +60,11 @@ export function DisplayCard({ className, name, age, nat, gen,...props }: {
         </div>
       </CardContent>
       <CardFooter>
+        <Link href={"/name"}>
         <Button className="w-full">
-          <Link href={"/name"}>Predict Next</Link>
+            Predict Next
         </Button>
+        </Link>
       </CardFooter>
     </Card>
   )
