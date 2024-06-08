@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-const page = () => {
+const Page = () => {
   const { push } = useRouter();
   const [name, setName] = useState<String>("");
   const [loading, setloading] = useState<boolean>(false);
@@ -29,4 +29,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
