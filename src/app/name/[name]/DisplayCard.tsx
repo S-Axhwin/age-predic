@@ -59,7 +59,7 @@ export function DisplayCard({ className, name, age, nat, gen,...props }: {
           </div>
         </div>
       </CardContent>
-      <CardFooter>
+      <CardFooter className="flex w-full justify-center">
         <Link href={"/name"}>
         <Button className="w-full">
             Predict Next
