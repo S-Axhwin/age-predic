@@ -13,7 +13,7 @@ const page = () => {
       <div className='flex justify-center'>
       <Button className='mt-4'>
       <Link href={"/name"}>
-        Pridict Now
+        Pridict Now.
       </Link>
       </Button>
       </div>
